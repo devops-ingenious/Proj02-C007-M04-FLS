@@ -1,0 +1,74 @@
+.cadastro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: calc(100vh - 63px);
+}
+
+.cadastro-container-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.cadastro-form {
+    background: #041C2C;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cadastro-nome {
+    margin: 5px;
+    height: 25px;
+    width: 520px;
+}
+
+.cadastro-email {
+    margin: 5px;
+    height: 25px;
+    width: 520px;
+}
+
+.cadastro-data {
+    margin: 5px;
+    height: 25px;
+    width: 424px;
+}
+
+.cadastro-urlImagem {
+    margin: 5px;
+    height: 25px;
+    width: 446px;
+}
+
+.cadastro-senha {
+    margin: 5px;
+    height: 25px;
+    width: 515px;
+}
+
+.cadastro-senha-confirmacao {
+    margin: 5px;
+    height: 25px;
+    width: 400px;
+}
+
+.cadastro-title {
+    margin-bottom: 15px;
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+.cadastro-botao {
+    margin-top: 15px;
+    height: 25px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+}

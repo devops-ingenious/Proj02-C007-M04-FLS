@@ -1,0 +1,26 @@
+.navbar {
+    background: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 1rem;
+
+    &_logo {
+        color: #fff;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    &_links {
+        display: flex;
+
+        &_items {
+            text-decoration: none;
+            list-style: none;
+            margin: 0 0.4rem;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}

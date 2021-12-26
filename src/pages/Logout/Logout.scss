@@ -1,0 +1,27 @@
+.logout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: calc(100vh - 1px);
+}
+
+.logout-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logout-mensagem {
+    background: #041C2C;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.logout-botao {
+    margin-top: 15px;
+    height: 25px;
+    width: 70px;
+}

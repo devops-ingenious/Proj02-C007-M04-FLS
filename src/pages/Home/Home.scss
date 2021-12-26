@@ -1,0 +1,11 @@
+.home {
+
+    &_cards {
+        background: #041C2C;
+        display: flex;
+        margin-top: 0.8rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        // align-items: center;
+    }
+}

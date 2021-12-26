@@ -1,0 +1,19 @@
+.card {
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+    margin: 1rem;
+    cursor: pointer;
+
+    img {
+        width: 10rem;
+    }
+
+    span {
+        font-size: 0.65rem;
+        padding: 0.5rem 0.5rem;
+    }
+}
